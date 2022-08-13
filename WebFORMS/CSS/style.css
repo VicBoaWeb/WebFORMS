@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.form_container{
+
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-gap: 1px;
+    
+}
+
+.form_fieldset_main{
+
+    block-size: auto;
+}
+
+.form_fieldset{
+
+    margin: 5px;
+
+}
+
+.form_legend{
+
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.form_main{
+
+    background-color: azure;
+    grid-column: 2;
+    grid-row: 2;
+    margin: 5px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .form_data {
+        grid-template-columns: 1fr;
+    }
+}

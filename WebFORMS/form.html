@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+    <body>
+
+        <div class="form_container">
+
+            <fieldset class="form_fieldset_main">
+
+                <main class="form_main">
+                    <form action="">
+    
+                        <fieldset class="form_fieldset">
+                            
+                            <fieldset class="form_fielset">
+                                <legend class="form_legend">Datos Personales</legend>
+    
+                            </fieldset>
+                            
+                            <fieldset>
+                                <div class="form_data">
+                            
+                                    <label for="idIdentifacion">Documento de Identificación</label>
+                                    <input type="number" name="txtIdentificacion" id="idIdentifacion"
+                                    required placeholder="ingrese solo números">                           
+                                </div>   
+                            </fieldset>
+                        
+                        
+    
+                        <div class="form_data">
+                            <label for="idNombre">Nombre</label>
+                            <input type="text" id="idNombre" 
+                                    name="txtNombre" required
+                                    placeholder="ingrese el nombre completo">
+                        </div>
+    
+                        <div class="form_data">
+                            <label for="idDireccion">Dirección</label>
+                            <input type="text" name="txtDireccion" 
+                                    required id="idDireccion"
+                                    placeholder="solamente dirección del domicilio">
+                        </div>
+    
+                        <div class="form_data">
+                            <label for="idPais">País</label>
+                            <select name="cmbPais" id="idPais" required>
+                                    <option value="Guatemala">Guatemala</option>
+                                    <option value="Honduras" selected>Honduras</option>
+                                    <option value="Nicaragua">Nicaragua</option>
+                            </select>
+                        </div>
+    
+                        <div class="form_data">
+                            <label for="idEmail">E-Mail</label>
+                            <input type="email" name="txtEmail" id="idEmail">
+                        </div>
+    
+                        <div class="form_data">
+                            <label for="idObservaciones">Observaciones</label>
+                            <textarea name="txtObservaciones" id="idObservaciones" cols="30"
+                                    rows="10"></textarea>
+                        </div>
+    
+                        <div class="form_data">
+                            <button type="submit" style="grid-column: 2;">Enviar Datos</button>
+                        </div>
+    
+                        </fieldset>
+                        
+    
+            
+                    </form>
+                </main>
+    
+
+            </fieldset>
+
+            
+        </div>
+
+                   
+        
+    </body>
+
+</html>
